@@ -1,0 +1,98 @@
+.c-index{
+	background-image:url(https://1.bp.blogspot.com/-Sg-i2lwHyPg/YNGYoPKE03I/AAAAAAAACtU/0Boc4SZFCT0MaEQRYR8Ao_xERcmjcbwbACLcBGAsYHQ/s1366/fondo-index.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.logo{
+	position: absolute;
+	width: 19%;
+	height: 25%;
+	left: 236px;
+	top: 221px;
+
+	background: url(https://1.bp.blogspot.com/-cgHE2sBMwRM/YL8w1PhC1hI/AAAAAAAABh8/1C8OUUCs3u0ym01PQesmGJmYcfEdvZhngCLcBGAsYHQ/s385/Logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.p-contenido{
+	position: absolute;
+	width: 589px;
+	height: 40px;
+	left: 94px;
+	top: 400px;
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+
+	color: #EEF4ED;
+}
+/**/
+header{
+	position:absolute;
+	top: 470px;
+	left: 195px;
+}
+
+.navegacion{
+	width: 100%;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	background: none;
+	border-radius: 20px;
+	border-style:solid;
+	border-color: #fff;
+	margin: 0 20px;
+	transition: all 0.4s ease-out;
+}
+
+.menu>li:hover{
+	border-color: orangered;
+	background-color: orangered;
+	
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
